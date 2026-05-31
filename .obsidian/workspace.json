@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "477f1cf965ca606e",
+        "id": "a010daff61140b27",
         "type": "tabs",
         "children": [
           {
-            "id": "a31de1b302cdc5cf",
+            "id": "0dbfe5c6103624d6",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 370.5
   },
   "right": {
     "id": "7092b65be1e76349",
@@ -90,6 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "wiki/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for index"
             }
           },
           {
@@ -108,11 +109,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "wiki/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from index"
             }
           },
           {
@@ -168,12 +170,12 @@
               "title": "calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,9 +185,51 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a31de1b302cdc5cf",
-  "lastOpenFiles": []
+  "active": "0dbfe5c6103624d6",
+  "lastOpenFiles": [
+    "wiki/concepts/MOC - Execution & Market Structure.md",
+    "wiki/concepts/MOC - Risk Management.md",
+    "wiki/concepts/MOC - Technical Analysis.md",
+    "wiki/concepts/MOC - Machine Learning for Trading.md",
+    "wiki/concepts/MOC - Quantitative Finance.md",
+    "wiki/references/transport-fallback.md",
+    "wiki/references/methodology-modes.md",
+    "wiki/references",
+    "skills/wiki-retrieve/SKILL.md",
+    "skills/wiki-retrieve",
+    "skills/wiki-mode/templates/para/resource-template.md",
+    "skills/wiki-mode/templates/para/project-template.md",
+    "skills/wiki-mode/templates/para/area-template.md",
+    "skills/wiki-mode/templates/zettel/atomic-template.md",
+    "skills/wiki-mode/templates/lyt/moc-template.md",
+    "skills/wiki-mode/templates/lyt/atomic-template.md",
+    "skills/wiki-mode/templates/para",
+    "skills/wiki-mode/templates/zettel",
+    "skills/wiki-mode/templates/lyt",
+    "skills/wiki-mode/templates",
+    "skills/wiki-mode/SKILL.md",
+    "skills/wiki-mode",
+    "skills/wiki-cli/SKILL.md",
+    "skills/wiki-cli",
+    "skills/think/SKILL.md",
+    "skills/think",
+    "docs/audits/v1.9.0-pre-public-promotion-audit-2026-05-18.md",
+    "docs/audits/v1.8.0-pre-push-audit-2026-05-18.md",
+    "docs/audits/v1.7.2-sss-plus-plan.md",
+    "docs/audits/v1.7.1-fixes-plan.md",
+    "docs/audits/v1.7.0-audit-2026-05-17.md",
+    "docs/audits",
+    "assets/diagrams/vault-flow.svg",
+    "assets/diagrams/multi-writer-locking.svg",
+    "assets/diagrams/hybrid-retrieval.svg",
+    "assets/social-preview.png",
+    "agents/verifier.md",
+    "SECURITY.md",
+    "PRIVACY.md",
+    "CONTRIBUTING.md"
+  ]
 }

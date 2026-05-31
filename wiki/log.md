@@ -25,6 +25,12 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 
 ---
 
+## [2026-05-31] autoresearch | DQN for Discrete Action Trading
+- Created synthesis note: [[Research - DQN for Discrete Action Trading]]
+- Created key entities: [[Volodymyr Mnih]]
+- Created concepts: [[Deep Q-Network (DQN)]], [[Reinforcement Learning in Finance]], [[Discrete Action Space (Trading)]], [[Markov Decision Process (MDP)]], [[Experience Replay]]
+- Created source note: [[DQN Nature Paper]]
+
 ## [2026-04-24] save | v1.6.0 public release notes (Teams, Karpathy-style)
 - Type: release doc + visual assets
 - Locations (new): `docs/releases/v1.6.0.md` (346 lines, 6 sections, Karpathy-style prose), `wiki/meta/dragonscale-mechanism-overview.svg` (4-mechanism diagram with shared .vault-meta/ gate), `wiki/meta/dragonscale-6-test-flow.svg` (validation timeline), `wiki/meta/dragonscale-frontier-graph.svg` (M4 candidate + 3 filed pages)

@@ -1,3 +1,12 @@
+---
+title: "tiling-report-2026-04-24"
+type: concept
+status: defining
+created: 2026-05-30
+updated: 2026-05-30
+tags:
+  - auto-fixed
+---
 # Semantic Tiling Report
 
 - generated: 2026-04-24T09:20:59Z
