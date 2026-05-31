@@ -1,7 +1,7 @@
 ---
 type: meta
 title: "Wiki Index"
-updated: 2026-04-07
+updated: 2026-05-31
 tags:
   - meta
   - index
@@ -11,83 +11,70 @@ related:
   - "[[log]]"
   - "[[hot]]"
   - "[[dashboard]]"
-  - "[[Wiki Map]]"
-  - "[[concepts/_index]]"
-  - "[[entities/_index]]"
-  - "[[sources/_index]]"
-  - "[[LLM Wiki Pattern]]"
-  - "[[Hot Cache]]"
-  - "[[Compounding Knowledge]]"
-  - "[[Andrej Karpathy]]"
 ---
 
 # Wiki Index
 
-Last updated: 2026-04-15 | Total pages: 34 | Sources ingested: 2
-
-Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[getting-started]]
+Last updated: 2026-05-31
 
 ---
 
-## Concepts
+## 🏗️ claude-obsidian Core
 
-- [[LLM Wiki Pattern]] — the pattern for building persistent, compounding knowledge bases using LLMs (status: mature)
-- [[Hot Cache]] — ~500-word session context file, updated after every ingest and session (status: mature)
-- [[Compounding Knowledge]] — why wiki knowledge grows more valuable over time, unlike RAG (status: mature)
-- [[cherry-picks]] — prioritized feature backlog from ecosystem research; 13 features to add to claude-obsidian (status: current)
-- [[SVG Diagram Style Guide]] — canonical visual style for all diagrams: Space Grotesk, #0A0A0A dark theme, #E07850 accent, full design tokens (status: evergreen)
-- [[Pro Hub Challenge]] — community challenge pattern for building claude-seo/claude-blog extensions; first challenge produced 6 submissions, 5 integrated in v1.9.0 (status: evergreen)
-- [[Semantic Topic Clustering]] — SERP-based keyword grouping replacing paid tools; hub-spoke architecture with interactive visualization (status: evergreen)
-- [[Search Experience Optimization]] — "read SERPs backwards" methodology for page-type mismatch detection and persona scoring (status: evergreen)
-- [[SEO Drift Monitoring]] — "git for SEO" baseline/diff/track with 17 comparison rules and SQLite persistence (status: evergreen)
-- [[DragonScale Memory]] — memory-layer spec inspired by the Heighway dragon curve; fold operator, deterministic page addresses, semantic tiling, boundary-first autoresearch (status: shipped v0.4, all four mechanisms opt-in)
-- [[Persistent Wiki Artifact]]: durable Markdown page as the LLM's memory object, distinct from ephemeral chat turns (status: developing)
-- [[Source-First Synthesis]]: provenance discipline; raw sources stay immutable while the wiki layer is synthesized and cited (status: developing)
-- [[Query-Time Retrieval]]: wiki query path synthesizes with citations; complementary to Obsidian's in-vault search (status: developing)
+### Concepts
+- [[LLM Wiki Pattern]] — persistent, compounding knowledge bases using LLMs
+- [[Hot Cache]] — ~500-word session context file
+- [[Compounding Knowledge]] — why wiki knowledge grows more valuable over time
+- [[DragonScale Memory]] — memory-layer spec: fold operator, deterministic addresses, semantic tiling
+- [[Persistent Wiki Artifact]] — durable Markdown page as the LLM's memory object
+- [[Source-First Synthesis]] — provenance discipline; raw sources stay immutable
+- [[Query-Time Retrieval]] — wiki query path synthesizes with citations
+- [[cherry-picks]] — prioritized feature backlog from ecosystem research
 
----
+### Visual & Community
+- [[SVG Diagram Style Guide]] — canonical visual style for all diagrams
+- [[Pro Hub Challenge]] — community challenge pattern
+- [[Semantic Topic Clustering]] — SERP-based keyword grouping
+- [[Search Experience Optimization]] — page-type mismatch detection and persona scoring
+- [[SEO Drift Monitoring]] — baseline/diff/track with 17 comparison rules
 
-## Entities
+### Entities
+- [[Andrej Karpathy]] — AI researcher, creator of the LLM Wiki pattern
+- [[Claude SEO]] — Tier 4 Claude Code skill for SEO analysis
+- [[Ar9av-obsidian-wiki]] — multi-agent compatible LLM Wiki plugin
+- [[Nexus-claudesidian-mcp]] — native Obsidian plugin + MCP bridge
+- [[ballred-obsidian-claude-pkm]] — goal cascade PKM
+- [[rvk7895-llm-knowledge-bases]] — 3-depth query system
+- [[kepano-obsidian-skills]] — official skills from Obsidian creator
+- [[Claudian-YishenTu]] — native Obsidian plugin embedding Claude Code
 
-- [[Andrej Karpathy]] — AI researcher, creator of the LLM Wiki pattern, former Tesla AI director (status: developing)
-- [[Ar9av-obsidian-wiki]] — multi-agent compatible LLM Wiki plugin; delta tracking manifest (status: current)
-- [[Nexus-claudesidian-mcp]] — native Obsidian plugin + MCP bridge; workspace memory, task management (status: current)
-- [[ballred-obsidian-claude-pkm]] — goal cascade PKM; auto-commit hooks, /adopt command (status: current)
-- [[rvk7895-llm-knowledge-bases]] — 3-depth query system, Marp slides, parallel deep research (status: current)
-- [[kepano-obsidian-skills]] — official skills from Obsidian creator; defuddle, obsidian-bases (status: current)
-- [[Claudian-YishenTu]] — native Obsidian plugin embedding Claude Code; plan mode, @mention (status: current)
-- [[Claude SEO]] — Tier 4 Claude Code skill for SEO analysis; 23 skills, 17 agents, 30 scripts at v1.9.0 (status: evergreen)
-
----
-
-## Sources
-
-- [[claude-obsidian-ecosystem-research]] — 2026-04-08 | web research across 16+ repos | 8 wiki pages created
-
----
-
-## Questions
-
-- [[How does the LLM Wiki pattern work]] — how the pattern works and why it outperforms RAG at human scale (status: developing)
+### Sources & Comparisons
+- [[claude-obsidian-ecosystem-research]] — 2026-04-08 ecosystem research
+- [[Wiki vs RAG]] — wiki knowledge base vs RAG comparison
+- [[claude-obsidian-ecosystem]] — feature matrix of 16+ projects
 
 ---
 
-## Comparisons
+## 📈 Algorithmic Trading Research
 
-- [[Wiki vs RAG]] — when to use a wiki knowledge base versus RAG; verdict: wiki wins at <1000 pages
-- [[claude-obsidian-ecosystem]] — feature matrix of 16+ Claude+Obsidian projects; where claude-obsidian wins and gaps
+> All trading/finance knowledge organized into domain-specific Maps of Content.
+
+### [[MOC - Algorithmic Trading Research]]
+Master hub connecting all trading research domains:
+
+- 📊 [[MOC - Quantitative Finance]] — performance metrics, position sizing, strategies (35 pages)
+- 🤖 [[MOC - Machine Learning for Trading]] — deep learning, ensemble, NLP, RL (34 pages)
+- 📈 [[MOC - Technical Analysis]] — indicators, moving averages, breakout strategies (21 pages)
+- ⚡ [[MOC - Execution & Market Structure]] — order types, execution costs, latency (16 pages)
+- 🛡️ [[MOC - Risk Management]] — drawdown, position sizing, volatility (17 pages)
 
 ---
 
-## Decisions
+## 📋 Session Logs & Decisions
 
-- [[2026-04-14-community-cta-rollout]] - Skool community CTA footer added to 6 skill repos with per-tool frequency rules (status: active)
-- [[2026-04-15-slides-and-release-session]] - Claude SEO v1.9.0 slides (15-slide HTML deck) + GitHub release v1.9.0 with PDF asset (status: complete)
-- [[2026-04-15-release-report-session]] - Claude SEO v1.9.0 Release Report PDF: dark theme, 13 pages, WeasyPrint layout fixes, Challenge v2 added (status: complete)
-- [[2026-04-14-claude-seo-v190-session]] - Claude SEO v1.9.0 Pro Hub Challenge integration: 5 submissions, 4 new skills, 4 review rounds, cybersecurity audit (status: complete)
-
----
-
-## Domains
-
-<!-- Add domain entries here after scaffold -->
+- [[2026-04-14-community-cta-rollout]] — Skool community CTA footer
+- [[2026-04-15-slides-and-release-session]] — Claude SEO v1.9.0 slides
+- [[2026-04-15-release-report-session]] — Claude SEO v1.9.0 Release Report
+- [[2026-04-14-claude-seo-v190-session]] — Claude SEO v1.9.0 Pro Hub Challenge
+- [[2026-04-24-v1.6.0-release-session]] — v1.6.0 release session
+- [[2026-04-10-backlink-empire-session]] — backlink empire session
